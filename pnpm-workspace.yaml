@@ -1,0 +1,12 @@
+allowBuilds:
+  msw: set this to true or false
+  sharp: set this to true or false
+ignoredBuiltDependencies:
+  - sharp
+  - unrs-resolver
+onlyBuiltDependencies:
+  - '@reown/appkit'
+  - bufferutil
+  - msw
+  - protobufjs
+  - utf-8-validate
